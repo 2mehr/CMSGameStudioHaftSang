@@ -11,6 +11,6 @@ public class Shooter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        transform.Translate ((transform.forward* 1 * Time.deltaTime));
 	}
 }
